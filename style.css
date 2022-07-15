@@ -1,0 +1,560 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma;
+}
+
+
+
+#page_header {
+    background-color: #ffffff;
+    border: #e7e8ec;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    height: 48px;
+    padding: 0%;
+}
+
+.page_header_item {
+    float: left;
+    overflow: hidden;
+}
+
+#logo {
+    width: 32px;
+    margin-top: 12px;
+    margin-left: 276px;
+}
+
+#search_tab {
+    background-color: #edeef0;
+    height: 32px;
+    width: 230px;
+    margin-top: 8px;
+    margin-left: 136px;
+    border-radius: 8px;
+}
+
+#search_tab_text {
+    color: #828d9a;
+    font-size: 14.5px;
+    letter-spacing: 0.15px;
+    float: right;
+    margin-top: 6px;
+    margin-right: 152px;
+}
+
+#notification {
+    filter: invert(52%);
+    margin-left: 28px;
+    margin-top: 10px;
+}
+
+#audio_player {
+    filter: invert(65%);
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+#audio_player_text {
+    color: #828d9a;
+    font-size: 14px;
+    float: right;
+    margin-left: 18px;
+    margin-top: 2px;
+}
+
+#navigation_tab {
+    filter: invert(54%);
+    margin-left: 54px;
+    margin-top: 12px;
+}
+
+#mini_profile_tab #mini_profile_img {
+    margin-left: 21px;
+    margin-top: 8px;
+}
+
+#mini_profile_tab #extend_arrow {
+    filter: invert(70%);
+    margin-left: 2px;
+    margin-bottom: 11px;
+}
+
+
+
+#page_main {
+    background-color: #edeef0;
+    height: 920px;
+    padding: 0%;
+}
+
+.page_main_item {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0.25px 0.25px 1px lightgray;
+}
+
+#profile_tab {
+    background-color: #ffffff;
+    height: 383px;
+    width: 230px;
+    border-radius: 2%;
+    margin-left: 444px;
+    margin-top: 14px;
+}
+
+#profile_tab #profile_img {
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 1%;
+}
+
+#profile_tab #edit_button {
+    background-color: #e8edf3;
+    color: #667e99;
+    line-height: 26px;
+    font-size: 13px;
+    height: 30px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 4%;
+    text-align: center;
+}
+
+#profile_tab #memories_img {
+    filter: invert(65%);
+    margin-top: 18px;
+    margin-left: 16px;
+}
+
+#profile_tab #memories_text {
+    color: #817f85;
+    float:right;
+    font-size: 13px;
+    margin-top: 22px;
+    margin-right: 124px;
+    letter-spacing: 0.25px;
+}
+
+#profile_tab #my_questions_img {
+    filter: invert(65%);
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+#profile_tab #my_questions_text {
+    color: #817f85;
+    float:right;
+    font-size: 13px;
+    margin-top: 14px;
+    margin-right: 103px;
+    letter-spacing: 0.25px;
+}
+
+#profile_tab #money_transfers_img {
+    filter: invert(65%);
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+#profile_tab #money_transfers_text {
+    color: #817f85;
+    float:right;
+    font-size: 13px;
+    margin-top: 13px;
+    margin-right: 85px;
+    letter-spacing: 0.25px;
+}
+
+#status_tab {
+    background-color: #ffffff;
+    font-family: Arial;
+    height: 211px;
+    width: 550px;
+    float:right;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-style: solid;
+    border-color: #d6d7db;
+    border-width: 0;
+    border-bottom-width: thin;
+    margin-right: 280.5px;
+    margin-top:14px;
+}
+
+#status_tab #profile_name {
+    font-weight: normal;
+    font-size: 19px;
+    margin-left: 21px;
+    margin-top: 15px;
+    letter-spacing: 0.25px;
+}
+
+#status_tab #last_seen_status {
+    color: #767e8f;
+    font-size: 12.5px;
+    float:right;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+
+#status_tab #set_status {
+    color: #817f85;
+    font-size: 12.5px;
+    margin-left: 20px;
+    margin-top: -8px;
+    letter-spacing: 0.25px;
+}
+
+#status_tab #line {
+    width: 510px;
+    height: 0.1px;
+    background-color: #d6d7db;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+#status_tab .info_name {
+    color: #677083;
+    font-size: 12.5px;
+    margin-left: 20px;
+    margin-top: 18px;
+    letter-spacing: 0.25px;
+}
+
+#status_tab .user_info_text {
+    color: #416377;
+    float:right;
+    margin-top: -14px;
+    margin-right: 310px;
+    font-size: 12.5px;
+    letter-spacing: 0.25px;
+}
+
+#info_tab {
+    background-color: #ffffff;
+    color: #817f85;
+    font-size: 12.5px;
+    height: 69px;
+    width: 549px;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    margin-left: 15px;
+    letter-spacing: 0.25px;
+}
+
+#info_tab .numbers {
+    color: #3a5c85;
+    font-size: 19px;
+    margin-top: 14px;
+    margin-left: 120px;
+}
+
+#my_photos_tab {
+    background-color: #ffffff;
+    font-family: Arial;
+    font-size: 12.5px;
+    height: 190px;
+    width: 550px;
+    border-radius: 2%;
+    margin-left: 15px;
+    margin-top: 14px;
+    letter-spacing: 0.25px;
+}
+
+#my_photos_tab #my_photos_img {
+    margin-top: 17px;
+    margin-left: 213px;
+}
+
+#profile_link_tab {
+    background-color: #ffffff;
+    height: 46px;
+    width: 230px;
+    border-radius: 2%;
+    margin-left: -795px;
+    margin-top: 117px;
+}
+
+#profile_link_tab #profile_link_img {
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+#profile_link_tab #profile_link_text {
+    float:right;
+    color: #6e92bb;
+    font-size: 13px;
+    margin-right: 126px;
+    margin-top: 15px;
+}
+
+#typing_tab {
+    background-color: #ffffff;
+    float:right;
+    height: 53px;
+    width: 550px;
+    border-radius: 2%;
+    margin-top: 14px;
+    margin-right: 280px;
+}
+
+#typing_tab #img {
+    margin-top: 12px;
+    margin-left: 19px;
+}
+
+#typing_tab #text {
+    color:rgb(143, 142, 142);
+    font-family: Arial;
+    font-size: 12px;
+    margin-left: 60px;
+    margin-top: -24px;
+    letter-spacing: 0.25px;
+}
+
+#typing_tab .images {
+    filter: invert(60%);
+}
+
+#typing_tab #photos_img {
+    float: right;
+    margin-top: -16px;
+    margin-right: 202px;
+}
+
+#typing_tab #videos_img {
+    float: right;
+    margin-top: -16px;
+    margin-right: -53px;
+}
+
+#typing_tab #audio_img {
+    float: right;
+    margin-top: -16px;
+    margin-right: -86px;
+}
+
+#typing_tab #article_img {
+    float: right;
+    margin-top: -16px;
+    margin-right: -119px;
+}
+
+#typing_tab #vline {
+    float: right;
+    height: 12px;
+    width: 0.1px;
+    background-color: #d6d7db;
+    margin-top: -11px;
+    margin-right: -136px;
+}
+
+#typing_tab #topics_img {
+    float: right;
+    margin-top: -16px;
+    margin-right: -170px;
+}
+
+#typing_tab #friends_img {
+    float: right;
+    margin-top: -16px;
+    margin-right: -202px;
+}
+
+#friends_tab {
+    background-color: #ffffff;
+    color: #817f85;
+    font-size: 12.5px;
+    height: 212px;
+    width: 230px;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-style: solid;
+    border-color: #d6d7db;
+    border-width: 0;
+    border-bottom-width: thin;
+    margin-left: 444px;
+    margin-top: -25px;
+}
+
+#friends_tab .friend_name {
+    color: #416377;
+    font-size: 12.5px;
+}
+
+#friends_tab #friend_1 {
+    margin-top: 17px;
+    margin-left: 20px;
+}
+
+#friends_tab #friend_2 {
+    margin-top: 17px;
+    margin-left: 16px;
+}
+
+#friends_tab #friend_3 {
+    float:right;
+    margin-top: 17px;
+    margin-right: 20px;
+}
+
+#friends_tab #friend_4 {
+    margin-top: 17px;
+    margin-left: 20px;
+}
+
+#friends_tab #friend_5 {
+    margin-top: 17px;
+    margin-left: 16px;
+}
+
+#friends_tab #friend_6 {
+    float:right;
+    margin-top: 17px;
+    margin-right: 20px;
+}
+
+#online_friends_tab {
+    background-color: #ffffff;
+    color: #817f85;
+    font-size: 12.5px;
+    height: 211px;
+    width: 230px;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    margin-top: 188px;
+    margin-left: -230px;
+}
+
+#online_friends_tab .friend_name {
+    color: #416377;
+    font-size: 12.5px;
+}
+
+#online_friends_tab #friend_1 {
+    margin-top: 17px;
+    margin-left: 20px;
+}
+
+#online_friends_tab #friend_2 {
+    margin-top: 17px;
+    margin-left: 16px;
+}
+
+#online_friends_tab #friend_3 {
+    float:right;
+    margin-top: 17px;
+    margin-right: 20px;
+}
+
+#online_friends_tab #friend_4 {
+    margin-top: 17px;
+    margin-left: 20px;
+}
+
+#online_friends_tab #friend_5 {
+    margin-top: 17px;
+    margin-left: 16px;
+}
+
+#posts_tab_top {
+    background-color: #ffffff;
+    height: 46px;
+    width: 550px;
+    font-size: 12.5px;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-style: solid;
+    border-color: #d6d7db;
+    border-width: 0;
+    border-bottom-width: thin;
+    margin-top: 14px;
+    margin-left: 15px;
+    letter-spacing: 0.25px;
+}
+
+#posts_tab_top #text {
+    font-size: 12.5px;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+#posts_tab_top #line {
+    background-color: #5181b8;
+    height: 0.1px;
+    width: 85px;
+    margin-left: 13px;
+    margin-top: 14px;
+}
+
+#posts_tab_bottom {
+    background-color: #ffffff;
+    height: 160px;
+    width: 550px;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    margin-left: 15px;
+}
+
+#posts_tab_bottom #img {
+    filter : invert(65%);
+    margin-top: 40px;
+    margin-left: 248px;
+}
+
+#posts_tab_bottom #text {
+    color: #797f85;
+    font-size: 12px;
+    margin-top: 12px;
+    margin-left: 202px;
+}
+
+#page_main_left {
+    position: absolute;
+}
+
+#page_main_left .text {
+    font-size: 12.5px;
+    margin-left: 6px;
+    display: inline;
+}
+
+#page_main_left #my_profile {
+    vertical-align: sub;
+    margin-top: 20px;
+    margin-left: 278px;
+}
+
+#page_main_left .page_left_img {
+    vertical-align: sub;
+    margin-top: 10px;
+    margin-left: 278px;
+}
+
+#page_main_left #line {
+    background-color: lightgrey;
+    height: 0.1px;
+    width: 118px;
+    margin-top: 15px;
+    margin-left: 309px;
+}
+
+#page_main_left #bottom_text {
+    white-space: pre;
+    color: #817f85;
+    font-size: 12px;
+    letter-spacing: 0.25px;
+    margin-top: 20px;
+    margin-left: 214px;
+}
+
+#page_main_left #menu_arrow {
+    position:absolute;
+    margin-top: -34px;
+    margin-left: 374px;
+}
